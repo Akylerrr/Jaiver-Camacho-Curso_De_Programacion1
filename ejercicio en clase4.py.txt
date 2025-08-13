@@ -1,0 +1,19 @@
+def sumar (a,b):
+    return a+b
+resultado =sumar (5,30)
+print(f"la suma de 5 y 3 es: {resultado}")
+
+def multiplicar (a,b):
+    return a*b
+resultado = multiplicar (2,5)
+print(f"la multiplicacion de 2 por 5 es: {resultado}")
+
+def restar (a,b):
+    return a-b
+resultado = restar (3,54)
+print(f"la resta de 3 por 54 es: {resultado}")
+
+def division (a,b):
+    return a/b
+resultado = division (5,2)
+print(f"la division de 5 entre dos es: {resultado}")
