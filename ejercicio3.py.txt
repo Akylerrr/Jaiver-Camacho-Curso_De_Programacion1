@@ -1,0 +1,23 @@
+num1=float(input("ingresa el primer numero: "))
+num2=float(input("ingresa el segundo numero: "))
+operacion=input("ingrese la operacion a realizar(Suma,Resta,Multiplicacion,divison: ")
+if operacion == "suma":
+    suma = num1+num2
+    print(f"la suma de los numeros {num1} y {num2} es igual: {suma}")
+elif operacion == "resta":
+    resta = num1-num2
+    print(f"la resta de los numeros {num1} y {num2} es igual: {resta}")
+elif operacion == "multiplicacion":
+    multiplicacion = num1*num2
+    print(f"la multiplicacion de los numeros {num1} y {num2} es igual: {multiplicacion}")
+elif operacion == "division":
+    division = num1/num2
+    print(f"la division de los numeros {num1} y {num2} es igual: {division}")
+
+    
+    
+    
+lista_compras=["Pasta","Pollo","tomate","cebolla"]
+
+lista_compras.append("Pasta","refresco")
+print("Lista después de insertar una compra en la posición 0:", lista_compras)
