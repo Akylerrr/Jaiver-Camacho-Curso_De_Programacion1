@@ -1,0 +1,128 @@
+body {
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fb-login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    max-width: 100vw;
+}
+
+.fb-login-left {
+    flex: 1;
+    padding-right: 35px;
+    max-width: 500px;
+}
+
+.fb-logo {
+    color: #2471a3;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.fb-login-left p {
+    font-size: 24px;
+    color: #2c3e50;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.fb-login-right {
+    background: #ffffff;
+    padding: 22px 14px 26px 14px;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px rgba(36,113,163,0.08);
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb-login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fb-login-form input[type="text"],
+.fb-login-form input[type="password"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b2bec3;
+    border-radius: 6px;
+    background: #f6fbff;
+    outline: none;
+}
+
+.fb-login-btn {
+    background: #3498db;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 11px 0;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.fb-login-btn:hover {
+    background: #2980b9;
+}
+
+.fb-forgot {
+    color: #2980b9;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    margin: 7px 0;
+    display: block;
+}
+
+.fb-login-form hr {
+    margin: 14px 0;
+    border: none;
+    border-top: 1px solid #d5dbdb;
+}
+
+.fb-create-account {
+    background: #27ae60;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.fb-create-account:hover {
+    background: #229954;
+}
+
+.fb-create-page {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #34495e;
+}
+
+.fb-create-page a {
+    color: #34495e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.fb-create-page a:hover {
+    color: #2980b9;
+}
