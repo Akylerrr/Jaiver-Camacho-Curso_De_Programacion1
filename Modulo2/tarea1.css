@@ -1,18 +1,48 @@
-.ttt{
-    font-size: 30px;
-    font-family: cursive;
-    color: blue;
-    background-color: azure;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    border: #333;
+}
+
+.ttt {
+    width: 300px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background-color: #fff; 
+    padding: 20px; 
+    border: #555 8px solid;
 }
 
 
-.foto{
+.foto {
+    width: 100px; 
+    height: 100px; 
     border-radius: 50%;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3%;
-    margin: auto;
-    border: 15% black;
+    margin-bottom: 15px; 
+}
+
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+h2 {
+    font-size: 22px; 
+    color: #555; 
+    margin-bottom: 5px;
+}
+
+
+p  {
+    font-size: 14px; 
+    color: #666; 
+    margin: 5px 0; 
 }
