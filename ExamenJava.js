@@ -90,4 +90,18 @@ const balanceFinal = transacciones.reduce((acumulador, transaccion) => {
 
 console.log('El balance final es:', balanceFinal);
 
-//QuintoEjercicio
+//Quinto Ejercicio 
+
+const concatenarArrays = (arr1, arr2) => {
+  return [...arr1, ...arr2];
+};
+
+const arrayOriginal1 = [1, 2, 3];
+const arrayOriginal2 = ['a', 'b', 'c'];
+
+const nuevoArrayConcatenado = concatenarArrays(arrayOriginal1, arrayOriginal2);
+
+console.log('Array concatenado:', nuevoArrayConcatenado);
+console.log('Array original 1:', arrayOriginal1); 
+console.log('Array original 2:', arrayOriginal2); 
+
